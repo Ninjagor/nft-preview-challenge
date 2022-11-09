@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  letter-spacing: 1px;
+  line-height: 25px;
+  color: white;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background-color: hsl(217deg, 54%, 11%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .main__section {
+  box-shadow: 0px 0px 0px 20px hsl(212deg, 56%, 10%);
+  width: 350px;
+  height: 580px;
+  background-color: hsl(216deg, 50%, 16%);
+  position: relative;
+  padding: 25px 15px;
+  border-radius: 15px;
+}
+body .main__section .images__section {
+  position: relative;
+}
+body .main__section .images__section .mainPic {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .main__section .images__section .mainPic .img1 {
+  width: 95%;
+  border-radius: 8px;
+}
+body .main__section .images__section .mainPic .img2wrapper {
+  cursor: pointer;
+  position: absolute;
+  background-color: rgba(0, 255, 247, 0.5);
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+body .main__section .images__section .mainPic .img2wrapper img {
+  width: 50px;
+  height: 50px;
+}
+body .main__section .images__section .mainPic .img2wrapper:hover {
+  opacity: 1;
+}
+body .main__section .text__section {
+  padding: 0 2.5%;
+}
+body .main__section .text__section h1 {
+  font-size: 1.3rem;
+  font-weight: 550;
+  margin: 15px 0;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  transition: color 0.5s;
+}
+body .main__section .text__section h1:hover {
+  color: hsl(178deg, 100%, 50%);
+}
+body .main__section .text__section p {
+  font-size: 1rem;
+  color: hsla(215deg, 52%, 70%, 0.836);
+}
+body .main__section .stat__flex {
+  padding: 0 2.5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+body .main__section .stat__flex .stat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .main__section .stat__flex .stat img {
+  margin-right: 5px;
+}
+body .main__section .stat__flex .stat1 {
+  color: hsl(178deg, 100%, 50%);
+  font-weight: 500;
+}
+body .main__section .stat__flex .stat2 {
+  color: hsla(215deg, 52%, 70%, 0.836);
+}
+body .main__section .linediv {
+  width: 100%;
+  height: 10px;
+  display: flex;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding: 0 2.5%;
+  background-color: none;
+}
+body .main__section .linediv .line {
+  width: 100%;
+  height: 1px;
+  background-color: hsl(215deg, 32%, 27%);
+}
+body .main__section .end__section {
+  width: 100%;
+  height: 50px;
+  padding: 0 2.5%;
+  display: flex;
+  align-items: center;
+}
+body .main__section .end__section img {
+  width: 35px;
+  height: 35px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+body .main__section .end__section p {
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+}
+body .main__section .end__section p .span1 {
+  color: hsla(215deg, 52%, 70%, 0.836);
+}
+body .main__section .end__section p .span2 {
+  color: hsl(0deg, 0%, 100%);
+  transition: color 0.5s;
+  cursor: pointer;
+}
+body .main__section .end__section p .span2:hover {
+  color: hsl(178deg, 100%, 50%);
+}/*# sourceMappingURL=index.css.map */
